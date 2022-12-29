@@ -4,26 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3faddd18-afbb-4f08-9425-0d1d69b47466" name="Changes" comment="ADD: gitignore">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSC372.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m1/cta1/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m1/cta1/CheckingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m1/cta1/TestingClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m1/cta1/output.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/d2/CSC372 Discussion Code Part 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/d2/CSC372 Discussion Code Part 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/d2/CSC372 Discussion Code Part 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/d2/CSC372 Discussion Code Part 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/d2/CSC372 Discussion Output Part 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/d2/CSC372 Discussion Output Part 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/d2/CSC372 Discussion Output Part 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/d2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/d2/ModuleTwoDiscussion.java" afterDir="false" />
+    <list default="true" id="3faddd18-afbb-4f08-9425-0d1d69b47466" name="Changes" comment="ADD: Module 1 and 2 discussion and cta files">
+      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/cta2/BankAppFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/cta2/DepositPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/cta2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/cta2/OutputPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/cta2/StartingBalancePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/cta2/WithdrawPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +20,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,18 +52,39 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/daniel.caperton/Downloads/CSC372/src/com/dancaps/m1/cta1",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
+    "last_opened_file_path": "/Users/daniel.caperton/Downloads/CSC372/src/com/dancaps/m1/d1",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/dancaps/m1/d1" />
       <recent name="$PROJECT_DIR$/src/com/dancaps/m1/cta1" />
       <recent name="$PROJECT_DIR$/src/com/dancaps/m2/d2" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dancaps.m2.cta2.Main" />
+      <module name="CSC372" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dancaps.m2.cta2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672275222374</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ADD: Module 1 and 2 discussion and cta files">
+      <created>1672275975097</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672275975097</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ADD: gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD: gitignore" />
+    <MESSAGE value="ADD: Module 1 and 2 discussion and cta files" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD: Module 1 and 2 discussion and cta files" />
   </component>
 </project>
