@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3faddd18-afbb-4f08-9425-0d1d69b47466" name="Changes" comment="ADD: Module 1 and 2 discussion and cta files">
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/cta2/BankAppFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/cta2/DepositPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/cta2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/cta2/OutputPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/cta2/StartingBalancePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dancaps/m2/cta2/WithdrawPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3faddd18-afbb-4f08-9425-0d1d69b47466" name="Changes" comment="FIX: Spelling mistake" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672275975097</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ADD: CTA2 assignment which is a simple application to setup, deposit and withdrawal money from a bank account">
+      <created>1672342795133</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672342795133</updated>
+    </task>
+    <task id="LOCAL-00004" summary="FIX: Spelling mistake">
+      <created>1672343022810</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672343022810</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +133,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ADD: gitignore" />
     <MESSAGE value="ADD: Module 1 and 2 discussion and cta files" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD: Module 1 and 2 discussion and cta files" />
+    <MESSAGE value="ADD: CTA2 assignment which is a simple application to setup, deposit and withdrawal money from a bank account" />
+    <MESSAGE value="FIX: Spelling mistake" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIX: Spelling mistake" />
   </component>
 </project>
