@@ -22,12 +22,12 @@ public class BankAppFrame extends JFrame {
         OutputPanel outputPanel = new OutputPanel();
         DepositPanel depositPanel = new DepositPanel(outputPanel);
         StartingBalancePanel startingBalancePanel = new StartingBalancePanel(outputPanel);
-        WithdrawPanel withdrawPanel = new WithdrawPanel(outputPanel);
+        WithdrawalPanel withdrawalPanel = new WithdrawalPanel(outputPanel);
 
         // Adds the JPanel objects to the JFrame
         this.add(startingBalancePanel);
         this.add(depositPanel);
-        this.add(withdrawPanel);
+        this.add(withdrawalPanel);
         this.add(outputPanel);
 
         // JFrame configurations

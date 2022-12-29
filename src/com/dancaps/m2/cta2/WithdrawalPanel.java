@@ -18,12 +18,12 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import java.text.NumberFormat;
 
-public class WithdrawPanel extends JPanel implements ActionListener {
+public class WithdrawalPanel extends JPanel implements ActionListener {
 
     private final JFormattedTextField inputField;
     private final OutputPanel outputPanel;
 
-    public WithdrawPanel(OutputPanel outputPanel) {
+    public WithdrawalPanel(OutputPanel outputPanel) {
         /* Constructs the object with a specific configuration for the withdrawal panel */
 
         // Passes the outputPanel object reference so that the label can be updated by this object
