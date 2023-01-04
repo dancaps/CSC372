@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!--
+Assignment Title: Creating a User Interface I
+Name: Danny Caperton
+School: Colorado State University Global
+Course: 22WB-CSC372-1
+Instructor: Dr. Brian Holbert
+Due Date: January 8, 2023
+ -->
+
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
@@ -8,7 +17,7 @@
 <?import javafx.scene.control.MenuItem?>
 
 <VBox xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.dancaps.m3.CTA3Controller" style="-fx-background-color: green">
+      fx:controller="com.dancaps.m3.CTA3Controller" fx:id="backgroundColor">
     <HBox alignment="TOP_CENTER">
         <padding>
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
@@ -17,10 +26,10 @@
         <MenuButton text="Take an action!">
             <items>
                 <MenuItem onAction="#getDateTime" text="Get the date and time" />
-                <MenuItem onAction="#getAssignmentInformation" text="Get the assignment information" />
                 <MenuItem onAction="#writeTextFile" text="Write displayed information to a file" />
                 <MenuItem onAction="#changeBackgroundColor" text="Change the background to a hue of green" />
                 <MenuItem onAction="#exitTheApplication" text="Exit the application" />
+                <MenuItem onAction="#getAssignmentInformation" text="Get the assignment information" />
             </items>
         </MenuButton>
     </HBox>
