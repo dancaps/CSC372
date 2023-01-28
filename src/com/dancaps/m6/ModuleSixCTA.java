@@ -13,9 +13,10 @@ import java.util.ArrayList;
 
 public class ModuleSixCTA {
     public static void main(String[] args) {
-        /* Demonstrating adding 10 Student objects to an ArrayList and sorting them by rollno and name attributes. The
-           requirements stated that I must implement the comparator interface along with my own sorting algorithm based
-           off the selection sort algorithm. We are not allowed to use the collections library
+        /*
+         * Demonstrating adding 10 Student objects to an ArrayList and sorting them by rollno and name attributes. The
+         * requirements stated that I must implement the comparator interface along with my own sorting algorithm based
+         * off the selection sort algorithm. We are not allowed to use the collections library
          */
 
         // Creating the ArrayList and adding the Student objects
